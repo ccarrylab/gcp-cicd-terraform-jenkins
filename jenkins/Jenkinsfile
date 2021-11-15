@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-        app_repo    = "https://github.com/incubus8/gcp-cicd-terraform-jenkins.git"
-        project_id  = "PROJECT_ID"
+        app_repo    = "https://github.com/ccarrylab/gcp-cicd-terraform-jenkins.git"
+        project_id  = "level-storm-330413"
     }
     stages {
         stage('Build') {
